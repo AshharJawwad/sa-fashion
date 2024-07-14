@@ -1,0 +1,99 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-around;
+    background-color: blue;
+    height: 4vh;
+    align-items: center;
+    cursor: pointer;
+}
+
+.top-bar li {
+    list-style: none;
+}
+
+.top-bar .left {
+    color: white;
+    list-style: none;
+}
+
+.top-bar .left .yourorders {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.top-bar .left .yourorders li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-bar .right {
+    color: white;
+    list-style: none;
+}
+
+.top-bar .right .c-l-r {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    gap: 0 20px;
+}
+
+.top-bar .left .c-l-r li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: antiquewhite;
+    height: 8vh;
+}
+
+.middle-bar .nav-logo {
+    display: flex;
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.middle-bar .nav-logo span {
+    color: brown;
+    margin: 0 10px 0 210px;
+}
+
+.middle-bar .search-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle-bar .search-box form {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.middle-bar .w-c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 180px 0 0;
+}
