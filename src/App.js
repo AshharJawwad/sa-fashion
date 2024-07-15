@@ -10,6 +10,7 @@ import Product from './Pages/Product';
 import Cart from './Pages/Cart';
 import LoginReg from './Pages/LoginReg';
 import Wishlist from './Pages/Wishlist';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path='/wishlist' element={<Wishlist/>}/>
         <Route path='/login' element={<LoginReg/>}/>
       </Routes>
+      <Footer/>
       </BrowserRouter>
     </div>
   );
